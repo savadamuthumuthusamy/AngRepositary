@@ -1,0 +1,42 @@
+<html>
+<script src="C:\Angular-Class\Script\angular.1.6.9.js"></script>
+
+<script src="C:\Angular-Class\Script\AngFun.js"> </script>
+
+
+
+<body>
+<div ng-app="Myapp" ng-controller="Allhttpmethod">
+
+ <div ng-repeat= 'x in data' ng-if='data'>
+  <h3> {{data34}} </h3>
+   {{x}}
+    <div ng-show="false"> 
+      <h1>Division 1</h1>
+     {{x.name}} -- {{x.job}}  
+    </div>
+  </div>
+
+ <div>
+
+  <input type="button" value="submit" ng-click="puthttp()">
+</div>
+
+
+<input type="button" value="submit" ng-click="putget()">
+
+
+
+
+
+<div  ng-show='data'>
+<h3> {{data44}} </h3>
+{{x}}
+</div>
+
+<div ng-show="data"> {{x.name}} -- {{x.job}}   </div>
+</div>
+
+</body>
+
+</html>
